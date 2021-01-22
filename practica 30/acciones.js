@@ -1,0 +1,33 @@
+$(function(){
+    let nuevaposicion=100;
+    $("#color").on("change",function(e){
+        $("#texto").css({
+            "color":$(e.target).val(),
+            "transition":"1s"
+        });
+    });
+    $("#itexto").on("keyup",function(e){
+        $("#texto").text($("#itexto").val());
+    });
+    $("[name='fondo']").on("change",function(e) {
+        $("#fondo").css({
+            "background-image":"url(img/"+$(this).val()+".jpg"
+        });
+    });
+    $("#subir").on("click",function(e){
+        e.preventDefault();
+        nuevaposicion+=25;
+        $("#texto").css({
+            "bottom":nuevaposicion+"px",
+            "transition":"1s"
+        });
+    });
+    $("#bajar").on("click",function(e){
+        e.preventDefault();
+        nuevaposicion-=25;
+        $("#texto").css({
+            "bottom":nuevaposicion+"px",
+            "transition":"1s"
+        });
+    });
+});

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>practica31</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+<section id="fondo">
+    <div id="texto" data-pos="10">Hola</div>
+</section>
+<section id="control">
+    <form >
+    <label for="color">Color de letra</label>
+    <input type="color" id="color" name="color" value="#FFFFFF">
+    <label for="itexto">Texto</label>
+    <input type="text" id="itexto" name="itexto" value="Hola"><br>
+    <span>Fondo:</span>
+    <input type="radio" id="carretera" name="fondo" value="carretera">
+    <label for="carretera">Carretera</label>
+    <input type="radio" id="montana" name="fondo" value="montana">
+    <label for="montana">Montaña</label>
+    <input type="radio" id="muro" name="fondo" value="Muro">
+    <label for="muro">Muro</label>
+    <input type="radio" id="puente" name="fondo" value="puente">
+    <label for="puente">Puente</label><br>
+    <button id="subir">Subir</button>
+    <button id="bajar">Bajar</button>
+    </form>
+</section>
+<script src="jquery/jquery-3.5.0.min.js"></script>
+<script src="acciones.js"></script>
+</body>
+</html>
