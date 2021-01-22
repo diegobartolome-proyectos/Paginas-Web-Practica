@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cantarell:400,700&display=swap');
+body{
+    background: goldenrod url("img/parquet.jpg");
+
+}
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 250px;
+    color: white;
+    background: linear-gradient(to left,#042b47,#660c26);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    margin: 10px;
+    margin-top: 0px;
+    font-size: 75px;
+}
+h3{
+    font-family: 'Cantarell', sans-serif;
+    color: white;
+    margin-bottom: 0px;
+    width: 50%;
+    text-align: center;
+
+}
+ol{
+    list-style-type: upper-roman;
+    background-color: rgba(255,255,255,0.5);
+    padding-bottom:  20px;
+    padding-top: 10px;
+}
+li{
+    font-family: 'Cantarell', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: white solid ;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+li:nth-child(1){
+    font-weight: bold;
+}
+span{
+    color: #2c6624;
+    border: #2c6624 dotted;
+}
+#oeste{
+    background: #e8a2b6 url("img/lebron.png")left no-repeat;
+    background-size: contain ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: right;
+}
+#oeste h2{
+    color: #042b47;
+    margin-right: 10px;
+}
+#oeste h3{
+    background-color: #042b47;
+    margin-left: 50%;
+}
+#oeste ol{
+    margin-top: 0px;
+    margin-left: 50%;
+    margin-bottom: 0px;
+}
+#este{
+    background: #b0d8f5 url("img/antetokounmpo.png")right no-repeat;
+    background-size: contain ;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+#este h2{
+    color: #660c26;
+    margin-leftt: 10px;
+}
+#este h3{
+    background-color:#660c26;
+    margin-right: 50%;
+}
+#este ol{
+    margin-top: 0px;
+    margin-right: 50%;
+}
